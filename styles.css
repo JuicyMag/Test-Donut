@@ -6,51 +6,43 @@
 
 .header{
   min-height: 100vh;
+  display: flex;
   width: 100%;
   background-image: url(images/donuts_4_DD.webp);
   background-position: right;
   background-size: cover;
-  font-size: large;
-  font-weight: 600;
 
 } 
 
 nav{
-  display: flex;
+  position: absolute;
+  right: 0;
   padding: 2% 6%;
-  justify-content: center;
-  align-items: center;
 }
 
 .nav-links{
-  flex: 1;
+  display:flex; 
+  /* For reference, flex made the buttons go side by side - spent too long trying to figure that out (https://www.youtube.com/watch?v=oYRda7UtuhA&t=729s) */
   
-  text-align: right;
-  list-style: none;
-  /* display: inline; */
-  /* padding: 8px 12px; */
-  position: relative;
-  position: relative;
-  align-items: center;
-  justify-content: space-between;
- 
-  margin: 1px;
-  
-
+  /* margin: 1px; */
 }
 
 .btn{
-  font-size: 1.25 rem;
-  border: none;
-  padding: 5px;
-  cursor: pointer;
-  border-radius: 5px;
+  margin:.25em;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  /* padding: 25px;  turns out this can mess your text alignment up and force you to spend 30 min trying to understand why your text won't center....*/ 
 
+
+  cursor: pointer;
+  border-radius: 15px;
 }
 
 
 .btn#home{
   background-color: lightslategray;
+  
 
   
 }
