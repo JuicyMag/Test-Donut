@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(images/donuts_4_DD.webp);
+  background-position: right;
+  background-size: cover;
+  font-size: large;
+  font-weight: 600;
+
+} 
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links{
+  flex: 1;
+  
+  text-align: right;
+  list-style: none;
+  /* display: inline; */
+  /* padding: 8px 12px; */
+  position: relative;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+ 
+  margin: 1px;
+  
+
+}
+
+.btn{
+  font-size: 1.25 rem;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
+.btn#home{
+  background-color: lightslategray;
+
+  
+}
+
+.btn#review{
+  background-color: lightgreen;
+
+}
+
+.btn#ranking{
+  background-color: lightpink;
+
+}
+
+
+/* if I were to use a logo --> img{} */
