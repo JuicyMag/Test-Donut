@@ -32,8 +32,6 @@ nav{
   height: 50px;
   font-size: large;
   /* padding: 25px;  turns out this can mess your text alignment up and force you to spend 30 min trying to understand why your text won't center....*/ 
-
-
   cursor: pointer;
   border-radius: 15px;
 }
@@ -82,14 +80,13 @@ nav{
 }
 
 .indexBodyTextObject{
-  
   /* background-position: right; */
   /* background-size: cover; */
   /* display: flex; */
   min-height: 25%;
   /* display: flex; */
   width: 25%;
-
 }
+
 
 /* if I were to use a logo --> img{} */
