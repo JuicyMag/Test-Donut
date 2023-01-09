@@ -11,7 +11,6 @@
   background-image: url(images/donuts_4_DD.webp);
   background-position: right;
   background-size: cover;
-
 } 
 
 nav{
@@ -66,8 +65,7 @@ nav{
   height: 500px;
   border-radius: 50px;
   padding: 50px;
-  background-image: url(images/donuts_1.jpg);
-
+  background-size: 10%;
 }
 
 .index_text_donuts{
@@ -88,5 +86,30 @@ nav{
   width: 25%;
 }
 
+
+#donut5{
+  width: 400px;  
+  height: 400px;  
+  border: 2px solid black;
+  border-radius: 5px; 
+  object-fit:enabled;  
+  object-position: right top;
+}
+
+#donut2{
+  width: 400px;  
+  height: 400px;  
+  border: 2px solid black;
+  border-radius: 5px; 
+  object-fit:enabled;  
+  object-position: right top;
+}
+
+#fatboy{
+  width: 400px;  
+  height: 400px;  
+  border: 2px solid black;
+  border-radius: 5px; 
+}
 
 /* if I were to use a logo --> img{} */
